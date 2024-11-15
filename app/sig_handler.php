@@ -14,5 +14,5 @@ pcntl_signal(SIGHUP,  "sig_handler");
 
 while (1) {
 	echo "[".date("r")."] Waiting for signal\n";
-
+	sleep(1);
 }
